@@ -12,3 +12,7 @@ class CustomUserAdmin(UserAdmin):
     list_display = ['email', 'username',]
 
 admin.site.register(CustomUser, CustomUserAdmin)
+
+# admin.site.site_title = ""
+# admin.site.site_header = ""
+# admin.site.index_title = ""
